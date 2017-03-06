@@ -30,6 +30,11 @@ describe('BotBuilder', () => {
       methods: ['GET', 'POST']
     },
     {
+      name: 'line',
+      path: 'line',
+      methods: ['POST']
+    },
+    {
       name: 'slackSlashCommand',
       path: 'slack/slash-command',
       methods: ['GET', 'POST']
